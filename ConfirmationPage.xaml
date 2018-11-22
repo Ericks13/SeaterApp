@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Seater.Views.ConfirmationPage">
+    <ContentView.Content>
+        
+        
+         <ScrollView>
+         <StackLayout>
+           <Image Source="CheckMark.jpg" WidthRequest="10" HeightRequest="100" Grid.Row="0" Grid.Column="0"/>
+            
+                
+            <Label Text="You made a reservation" FontSize="20" TextColor="Red" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+            <Label Text="successully! " FontSize="20" TextColor="Red" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"  TranslationY="-50"/>    
+            <Label Text="Your waiting number is 11" TextColor="Red" FontSize="20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TranslationY="-50"  />
+            <Label Text="Estimated waiting time: " TextColor="Red" FontSize="20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TranslationY="-100"/>   
+            <Label Text="40 Minutes" FontSize="20" TextColor="Red"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TranslationY="-70"/>    
+            <Label Text="You will recieve an alert when" TextColor="Red" FontSize="20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TranslationY="-70"/>   
+            <Label Text="your number is called." TextColor="Red" FontSize="20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TranslationY="-120" />
+            
+            <Button Text="Continue" Clicked="Button_Clicked" TranslationY="-20"/>
+            
+            
+                
+                
+                
+            </StackLayout>      
+            </ScrollView>
+        
+        
+        
+        
+        
+    </ContentView.Content>
+</ContentView>

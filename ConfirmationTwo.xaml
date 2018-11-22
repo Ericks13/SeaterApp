@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Seater.Views.ConfirmationPageTwo">
+    <ContentView.Content>
+        
+        
+         <ScrollView>
+         <StackLayout>
+           <Image Source="CheckMark.jpg" WidthRequest="10" HeightRequest="100" Grid.Row="0" Grid.Column="0"/>
+            
+                
+            <Label Text="You made a reservation" FontSize="20" TextColor="Red" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+            <Label Text="successully! " FontSize="20" TextColor="Red" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TranslationY="-30" />    
+            <Label Text="Name: "  TextColor="Red" FontSize="20" VerticalOptions="Start" HorizontalOptions="Start" TranslationY="-30"  />
+            <Label Text="Erick Salas" TextColor="Blue" Font="20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TranslationY="-75"  />
+                
+                
+            <Label Text="Phone #: " TextColor="Red" FontSize="20" VerticalOptions="Start" HorizontalOptions="Start" TranslationY="-80"/>   
+            <Label Text="800-123-4567 " TextColor="Blue" FontSize="20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TranslationX="15" TranslationY="-123"/>   
+                
+            <Label Text="Occasion: " FontSize="20" TextColor="Red"  VerticalOptions="Start" HorizontalOptions="Start" TranslationY="-120"/>    
+            <Label Text="Birthday Party! " TextColor="Blue" FontSize="20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TranslationX="20"  TranslationY="-167"/>   
+            
+            <Label Text="Special Note: " TextColor="Red" FontSize="20" VerticalOptions="Start" HorizontalOptions="Start" TranslationY="-120" />
+            <Label Text="No Vanilla Cake" TextColor="Blue" FontSize="20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TranslationX="20" TranslationY="-168" />
+                
+            <Button Text="Continue" Clicked="Button_Clicked" TranslationY="-20"/>
+            
+            
+                
+                
+                
+            </StackLayout>      
+            </ScrollView>
+        
+        
+        
+        
+        
+    </ContentView.Content>
+</ContentView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="Seater.Views.OptionPage">
+    <ContentPage.Content>
+        
+       <ScrollView>
+        <StackLayout>
+            <Image Source="SushiPlace.png" WidthRequest="-10" HeightRequest="100" Grid.Row="0" Grid.Column="0"/>
+            <Image Source="sushi.jpg" WidthRequest="0" HeightRequest="100" Grid.Row="0" Grid.Column="0"/>
+            
+            <Label Text="Sushi Place" FontSize="20" VerticalOptions="Start" HorizontalOptions="Start"/>
+            <Label Text="The restaurant is located:" FontSize="15" VerticalOptions="Start" HorizontalOptions="Start"/>
+            <Label Text="123 Java Street " FontSize="15" VerticalOptions="Start" HorizontalOptions="Start"/>
+            <Label Text="Albany, New York, 12203" FontSize="15" VerticalOptions="Start" HorizontalOptions="Start"/>
+                
+            <Label Text="Now there are 10 customers ahead of you" FontSize="15" TextColor="Red" VerticalOptions="CenterAndExpand" HorizontalOptions="Center"/>
+            <Label Text="Estimated Waiting Time:" FontSize="15"  XAlign="Center"  TextColor="Red"  />
+            <Label Text="40 Minutes" FontSize="20"  TextColor="Red" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                
+                
+                
+                <Button Text="CLICK HERE TO GET A WAITING NUMBER" Clicked="Button_Clicked"/>
+                <StackLayout VerticalOptions="EndAndExpand"
+                         BackgroundColor="LightGray"
+                             Orientation="Horizontal">
+                </StackLayout>
+            </StackLayout>
+            </ScrollView>
+        
+        
+    </ContentPage.Content>
+</ContentPage>
